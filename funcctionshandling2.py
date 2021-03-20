@@ -102,6 +102,7 @@ print(sorted(li, key=funcObj))
 li = [66,33,11,99,88,77,43,55,12,32,89,56]
 print(sorted(li, key = lambda arg : arg % 7))
 
+print(__name__) # name of module for interpretor
 
 
 
